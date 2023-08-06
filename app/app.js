@@ -21,7 +21,7 @@ dbConnection.connect((err) => {
 });
 
 app.get('/', (req, res) => {
-    const nome = 'Samoel';
+    const nome = 'Usuario Teste';
     const query = 'INSERT INTO people (nome) VALUES (?)';
     dbConnection.query(query, [nome], (err) => {
         if (err) {
