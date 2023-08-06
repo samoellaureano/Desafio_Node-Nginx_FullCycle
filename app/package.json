@@ -1,0 +1,11 @@
+{
+    "name": "node-app",
+    "version": "1.0.0",
+    "description": "Aplicação Node.js para o desafio Full Cycle Rocks",
+    "main": "app.js",
+    "dependencies": {
+        "date-fns": "^2.30.0",
+        "express": "^4.17.1",
+        "mysql": "^2.18.1"
+    }
+}
