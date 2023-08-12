@@ -8,3 +8,8 @@ RUN wget https://github.com/jwilder/dockerize/releases/download/$DOCKERIZE_VERSI
 USER node
 
 WORKDIR /usr/src/app
+
+LABEL Name=app
+LABEL Version="1.0"
+EXPOSE 3000
+CMD [ "" ]
